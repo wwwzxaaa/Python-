@@ -41,7 +41,7 @@ for i in range(len(R_ATC_CID_SET)):
 #print(List_ATC_CID_SET)
 temp01 = []
 for i in range(1,718):
-    for j in range(i,718):
+    for j in range(1,718):
         key = List_ATC_CID_SET[i][0] + '\t' +List_ATC_CID_SET[j][0]
         denominator= len(set(List_ATC_CID_SET[i][1]).union(set(List_ATC_CID_SET[j][1])))-1
         numerator = len(set(List_ATC_CID_SET[i][1]).intersection(set(List_ATC_CID_SET[j][1])))-1

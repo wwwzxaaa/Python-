@@ -43,7 +43,7 @@ for i in range(len(R_ATC_CID_SET)):
     temp = []
 temp01 = []
 for i in range(1,1094):
-    for j in range(i,1094):
+    for j in range(1,1094):
         key = List_ATC_CID_SET[i][0] + '\t' + List_ATC_CID_SET[j][0]
         sum1 = 0
         sum2 = 0
