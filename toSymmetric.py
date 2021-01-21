@@ -45,5 +45,5 @@ def excel_to_Symmetric(path_file):
 
 
 if __name__ == "__main__":
-    file_path = "E:\work\\t_cid.xlsx"
+    file_path = "end_simcomp_result.xlsx"
     excel_to_Symmetric(file_path)

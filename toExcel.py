@@ -55,5 +55,5 @@ def txt_to_excel(path_file):
 
 
 if __name__ == "__main__":
-    file_path = "E:\work\\text\\t_cid.txt"
+    file_path = "f-screen_target_value.txt"
     txt_to_excel(file_path)

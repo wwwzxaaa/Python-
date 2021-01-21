@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from pandas import DataFrame
-df=pd.read_excel(r"E:\work\result_subcomp.xlsx",header=None)
+df=pd.read_excel(r"ceshi.xlsx",header=None)
 height,width = df.shape
 for i in range(1,width):
     for j in range(i+1,width):
@@ -10,4 +10,4 @@ for i in range(1,width):
                 df[i][m]=max(df[i][m],df[j][m])
                 df[j][m]=max(df[i][m],df[j][m])
 print(df)
-df.to_excel("E:\work\\result_subcomp1.xlsx")
+df.to_excel("E:\work\\result_ceshi.xlsx")

@@ -14,9 +14,9 @@ for i in range(0,length-1):
     lens=len(drug_data['GOID_seffect'][i])-1
     # if lens >= 10:
     #     df = df[df['']
-        # drug_data['GOID_seffect'] = drug_data['GOID_seffect'][i]
-        # print(drug_data['GOID_seffect'])
-        # drug_data['GOID_seffect'] = drug_data['GOID_seffect'][i].apply(lambda x: [x[1:]])
-        # print(drug_data['GOID_seffect'])
-        # drug_data.head()
-        # drug_data.to_csv('E:\work\\text\end_meddra.csv')
+    #     drug_data['GOID_seffect'] = drug_data['GOID_seffect'][i]
+    #     print(drug_data['GOID_seffect'])
+    #     drug_data['GOID_seffect'] = drug_data['GOID_seffect'][i].apply(lambda x: [x[1:]])
+    #     print(drug_data['GOID_seffect'])
+    #     drug_data.head()
+    #     drug_data.to_csv('E:\work\\text\end_meddra.csv')

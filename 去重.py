@@ -1,13 +1,13 @@
 import shutil
 a=0
-readDir = "E:\work\\text\\atc_s1.txt"  #old
-writeDir = "E:\work\\text\\atc_s2.txt" #new
+readDir = "E:/python/text/protein_result.txt"  #old
+writeDir = "E:/python/text/protein_result1.txt" #new
 lines_seen = set()
 outfile = open(writeDir, "w")
 f = open(readDir, "r")
 for line in f:
+  a += 1
   if line not in lines_seen:
-    a+=1
     outfile.write(line)
     lines_seen.add(line)
     print(a)
